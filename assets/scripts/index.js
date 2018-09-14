@@ -13,4 +13,5 @@ $(() => {
   })
   $('.your-opinion').on('mouseleave', () => $('#yo').hide())
   $('#about-me').on('click', () => $('.message').show())
+  $('#skills').on('click', () => $('.skill').show())
 }).foundation()
