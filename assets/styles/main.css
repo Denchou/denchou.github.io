@@ -27,11 +27,15 @@ footer {
   position: relative;
   justify-content: center;
 }
-.top-bar-left {
+.top-bar {
   opacity: 0.75;
 }
 .skill {
   opacity: 0.75;
+}
+img {
+height: 240px;
+width: 240px;
 }
 
 
@@ -172,3 +176,5 @@ footer {
         opacity: 0;
     }
 }
+
+/
