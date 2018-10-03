@@ -1,96 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Den's Site</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link href="assets/styles/main.css"rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
-      <!-- Compressed CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/css/foundation.min.css" integrity="sha256-iJQ8dZac/jUYHxiEnZJsyVpKcdq2sQvdA7t02QFmp30= sha384-SplqNBo/0ZlvSdwrP/riIPDozO5ck8+yIm++KVqyMAC53S6m3BaV+2OLpi7ULOOh sha512-ho6hK4sAWdCeqopNZWNy1d9Ok2hzfTLQLcGSr8ZlRzDzh6tNHkVoqSl6wgLsqls3yazwiG9H9dBCtSfPuiLRCQ==" crossorigin="anonymous">
+<head>
 
-<!-- Compressed JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg==" crossorigin="anonymous"></script>
-    </head>
-    <body>
-    <!-- Start of Menu -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-            <a href="#">Me</a>
-            <ul class="menu vertical">
-              <li><a href="mailto:denchou@protonmail.com" target="_blank">denchou@protonmail.com</a></li>
-              <li><a href="#0" id="about-me">About Me</a></li>
-              <li><a hred='#' id="skills">Skills</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">My Sites</a>
-            <ul class="menu vertical">
-              <li><a href="https://www.linkedin.com/in/denchou/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://github.com/Denchou" target="_blank">GitHub</a></li>
-              <li><a href="#">Social Media</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">My Projects</a>
-            <ul class="menu vertical">
-              <li><a class="tic-tac-toe" href="https://denchou.github.io/tictactoe-client/" target="_blank">Tic-Tac-Toe</a></li>
-              <li class="your-opinion"><a href="https://denchou.github.io/youropinion-client/" target="_blank">Your Opinion</a></li>
-              <li><a href="#">TBD</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="https://drive.google.com/open?id=1cOSo9D7urf8TH-m3-OM5CxC0M6N6OCLb" target="_blank" type="button" class="button">Download Resume</a></li>
-        </ul>
-      </div>
+  <title>Den's Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/css/foundation.min.css" integrity="sha256-iJQ8dZac/jUYHxiEnZJsyVpKcdq2sQvdA7t02QFmp30= sha384-SplqNBo/0ZlvSdwrP/riIPDozO5ck8+yIm++KVqyMAC53S6m3BaV+2OLpi7ULOOh
+      sha512-ho6hK4sAWdCeqopNZWNy1d9Ok2hzfTLQLcGSr8ZlRzDzh6tNHkVoqSl6wgLsqls3yazwiG9H9dBCtSfPuiLRCQ=="
+    crossorigin="anonymous">
+
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.2/dist/js/foundation.min.js" integrity="sha256-G6jsRyH1fxbsvFIXSCuwYmI1aIDYBa28xscrvmYjJy0= sha384-vtoG68NvPc9azmFJr447vvY8qgdyA4FdaJ5/bqvzIM4eAdZfO0iyRRF8l2AAscYI
+      sha512-43seCcNrHA0BQgrtyajB9sp8yOdv5c8QdYvgjP7zJ7v+dmzAcxYDQ2gupb9aztsNWBq1COIp/3NHYkQs4l/dkg=="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="leaves">
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+  <i></i>
+</div>
+  <!-- Start of Menu -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a href="#">Me</a>
+          <ul class="menu vertical">
+            <li><a href="mailto:denchou@protonmail.com" target="_blank">denchou@protonmail.com</a></li>
+            <li><a href="#0" id="about-me">About Me</a></li>
+            <li><a hred='#' id="skills">Skills</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">My Sites</a>
+          <ul class="menu vertical">
+            <li><a href="https://www.linkedin.com/in/denchou/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Denchou" target="_blank">GitHub</a></li>
+            <li><a href="#">Social Media</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">My Projects</a>
+          <ul class="menu vertical">
+            <li><a class="tic-tac-toe" href="https://denchou.github.io/tictactoe-client/" target="_blank">Tic-Tac-Toe</a></li>
+            <li class="your-opinion"><a href="https://denchou.github.io/youropinion-client/" target="_blank">Your Opinion</a></li>
+            <li><a href="#">TBD</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-<!-- End of TOp Bar -->
-      <h1 class="text-center">Den Chou</h1>
-      <h4>A Boston Web Developer</h4>
-      <div class="message success callout" data-closable>
-        <h3 class="text-center">The Zen of Den</h3>
-        <p>Hello! Welcome to my website. My name is Den. It is not short for anything, nor was I named after anybody. I was named after a mountain close to where I was born. The place where I was born is not important, because it no longer exists, but you
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="https://drive.google.com/open?id=1cOSo9D7urf8TH-m3-OM5CxC0M6N6OCLb" target="_blank" type="button" class="button">Download Resume</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End of TOp Bar -->
+  <h1 class="text-center">Den Chou</h1>
+  <h4>A Boston Web Developer</h4>
+  <div class="message success callout" data-closable>
+    <h3 class="text-center">The Zen of Den</h3>
+    <p>Hello! Welcome to my website. My name is Den. It is not short for anything, nor was I named after anybody. I was named after a mountain close to where I was born. The place where I was born is not important, because it no longer exists, but
+      you
       can learn more about it <a href="https://en.wikipedia.org/wiki/Khao-I-Dang" target="_blank" title="Cambodian Refugee Camp">here.</a>
-    Additional information about my history can be found <a href="https://en.wikipedia.org/wiki/Khmer_Rouge_Killing_Fields" target="_blank" title='If only I can use this link for all the times people have asked me, "...no offense, but, what are you?"'>here</a>.</p>
-      <p>I can probably mention a lot of interesting things about my life, like how I only became fluent in English in my early 20s, my stint as an ordained Buddhist monk, my surprised baptism, my love and hate
+      Additional information about my history can be found <a href="https://en.wikipedia.org/wiki/Khmer_Rouge_Killing_Fields" target="_blank" title='If only I can use this link for all the times people have asked me, "...no offense, but, what are you?"'>here</a>.</p>
+    <p>I can probably mention a lot of interesting things about my life, like how I only became fluent in English in my early 20s, my stint as an ordained Buddhist monk, my surprised baptism, my love and hate
       relationship with dairy, my propensity to name my cats after dead Presidents, or my amazing collections of umbrellas, but I'm sure you are here because you showed interest in me, and for that, I thank you. </p>
-    <p>So enough about <em>Past</em> me, let's get to know <em>Present</em> and <em>Future</em> me! First and foremost, I see the world differently than your average human. I am irreverant, whimsical and my humor is dry. In my opinion, it's much better than being seriously boring with a wet sense of humor. My definition of success is having enough to eat and avoid being eaten. Not a lot of room for ambitions because...<blockquote class="text-center">"Ambition is the last refuge of the failure. - Oscar Wilde"</blockquote>
+    <p>So enough about <em>Past</em> me, let's get to know <em>Present</em> and <em>Future</em> me! First and foremost, I see the world differently than your average human. I am irreverant, whimsical and my humor is dry. In my opinion, it's much
+      better than being seriously boring with a wet sense of humor. My definition of success is having enough to eat and avoid being eaten. Not a lot of room for ambitions because...<blockquote class="text-center">"Ambition is the last refuge of the
+        failure. - Oscar Wilde"</blockquote>
       Outside of that, I believe life is meant
-      to be an experience. I love experiencing new things, exploring new places, both abstract and concrete. That thing you wished you had done or experience could disappear at any given time. I read somewhere that Venice was sinking. Can you imagine never having done Venetian things before Venice sinks? That would be SAD, and SAD backwards is DAS and DAS not good. It would be naive to believe that things last forever, however, the mere act of experiencing things before they fade away gives me a sense of joy and accomplishment -- PASCAL for example. According to the Zen masters of Japan, there is a gentle happiness in accepting the <a href="https://en.wikipedia.org/wiki/Mono_no_aware" target="_blank" title="Very Zen Link!">Awareness of Things</a>.</p>
-    <p>I have shown my ability to grow, adjust, adapt, and survive just by simply existing. To use video games as an anology, I started in Hard Mode and I haven't died yet. I will not try to sell you on my abilities -- my work and project history will speak for themselves. But I will try to give you a reason to invest in someone like me. I have learned early in life that I can never be the best at something. This is a fact that I have accepted in all aspects of life. Here is a factual sentence: I am not the best web developer in the world. Here is the key fact in that sentence: I am a web developer. If you need a web developer, I highly recommend you invest in me. If I am capable of developing skills to build a full-stack application in 3 months, imagine the possibilities if I were given the opportunity to do more.</p><blockquote class="text-align">"We try harder" - Avis slogan</blockquote>
+      to be an experience. I love experiencing new things, exploring new places, both abstract and concrete. That thing you wished you had done or experience could disappear at any given time. I read somewhere that Venice was sinking. Can you
+      imagine never having done Venetian things before Venice sinks? That would be SAD, and SAD backwards is DAS and DAS not good. It would be naive to believe that things last forever, however, the mere act of experiencing things before they fade
+      away gives me a sense of joy and accomplishment -- PASCAL for example. According to the Zen masters of Japan, there is a gentle happiness in accepting the <a href="https://en.wikipedia.org/wiki/Mono_no_aware" target="_blank" title="Very Zen Link!">Awareness of Things</a>.</p>
+    <p>I have shown my ability to grow, adjust, adapt, and survive just by simply existing. To use video games as an anology, I started in Hard Mode and I haven't died yet. I will not try to sell you on my abilities -- my work and project history
+      will speak for themselves. But I will try to give you a reason to invest in someone like me. I have learned early in life that I can never be the best at something. This is a fact that I have accepted in all aspects of life. Here is a factual
+      sentence: I am not the best web developer in the world. Here is the key fact in that sentence: I am a web developer. If you need a web developer, I highly recommend you invest in me. If I am capable of developing skills to build a full-stack
+      application in 3 months, imagine the possibilities if I were given the opportunity to do more.</p>
+    <blockquote class="text-align">"We try harder" - Avis slogan</blockquote>
     <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
         <span aria-hidden="true">&times;</span>
       </button>
-      </div>
-      <div class="skill primary callout" data-closable>
-        <h3 class="text-center">SKILLS</h3>
-        <ul class="no-bullet text-center">
-  <li>Ruby on Rails</li>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>Bootstrap</li>
-  <li>Foundation</li>
-  <li>MongoDB</li>
-  <li>Mongoose</li>
-  <li>Ember.js</li>
-  <li>Jquery</li>
-  <li>Node.js</li>
-  <li>PSQL</li>
-</ul>
+  </div>
+  <div class="skill primary callout" data-closable>
+    <h3 class="text-center">SKILLS</h3>
+    <ul class="no-bullet text-center">
+      <li>Ruby on Rails</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Bootstrap</li>
+      <li>Foundation</li>
+      <li>MongoDB</li>
+      <li>Mongoose</li>
+      <li>React.js</li>
+      <li>Jquery</li>
+      <li>Node.js</li>
+      <li>PSQL</li>
+    </ul>
 
     <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
         <span aria-hidden="true">&times;</span>
       </button>
-      </div>
-      <div responsive-embed><img id="yo" src="https://i.imgur.com/3FSHQUh.png" title="source: imgur.com" /></div>
-      <div responsive-embed><img id="ttt" src="https://i.imgur.com/mt3PQ0s.png" title="source: imgur.com" /><div>
+  </div>
+  <div responsive-embed><img id="yo" src="https://i.imgur.com/3FSHQUh.png" title="source: imgur.com" /></div>
+    <div responsive-embed><img id="ttt" src="https://i.imgur.com/mt3PQ0s.png" title="source: imgur.com" />
+      <div>
         <footer class="grid-x grid-padding-x text-center align-bottom">Created with Foundation</footer>
 
-    </body>
+</body>
+
 </html>
