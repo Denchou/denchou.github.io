@@ -9,6 +9,7 @@ body {
   background-image:url("https://s3.amazonaws.com/denchou/Boston.jpg");
   color: orange;
   text-shadow: 2px 2px black;
+
 }
 i {
   font-size: 2em;
@@ -19,6 +20,7 @@ nav {
     margin-bottom: 27px;
     background-color: #e91010;
 }
+
 h4 {
   text-align: center;
 }
