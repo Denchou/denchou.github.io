@@ -62,8 +62,8 @@ footer {
   opacity: .75;
 }
 
-.menu .active {
-  font-weight: bold;
+.menu :selected {
+  color: yellow;
 }
 .container {
     position: relative;
