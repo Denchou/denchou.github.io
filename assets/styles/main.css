@@ -1,12 +1,14 @@
 
+
 body {
   padding: 2rem 1rem;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .header {
   background-image:url("https://s3.amazonaws.com/denchou/Boston.jpg");
-  color: white;
-  text-shadow: 3px 1px 3px teal;
+  color: orange;
+  text-shadow: 2px 2px black;
 }
 i {
   font-size: 2em;
@@ -20,41 +22,81 @@ nav {
 h4 {
   text-align: center;
 }
-.message {
+.proj {
+  float: left;
+}
+
+/* .message {
   font-family: Open Sans,Arial;
   color: #454545;
   font-size: 16px;
   margin: 2em auto;
-  /* max-width: 800px; */
+
   padding: 1em;
   line-height: 1.4;
   text-align: justify;
   opacity: 0.75;
-}
+} */
 footer {
   top: 90%;
   position: relative;
   justify-content: center;
 }
-.top-bar {
-  opacity: 0.75;
-}
-.skill {
-  opacity: 0.75;
-}
+
 .no-js .top-bar {
   display: none;
 }
 .menu {
   padding-bottom: 4em;
 }
+.demo-toggle-title {
+  margin-top: 0.5rem;
+}
 
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
-  }
+.top-bar {
+  width: 100%;
+  opacity: .75;
+}
 
-  .no-js .title-bar {
-    display: none;
-  }
+.menu .active {
+  font-weight: bold;
+}
+.container {
+    position: relative;
+    width: 33%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
