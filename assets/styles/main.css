@@ -3,10 +3,11 @@
 body {
   padding: 2rem 1rem;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  background-color:
 }
 
 .header {
-  background-image:url("https://s3.amazonaws.com/denchou/Boston.jpg");
+  background-color: black;
   color: orange;
   text-shadow: 2px 2px black;
 
